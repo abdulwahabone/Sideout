@@ -57,7 +57,7 @@ Then you just include Sideout.js, create a new instance with some options
 <script src="dist/sideout.js"></script>
 <script>
   let sideout = new Sideout({
-    menu: querySelector('#menu'),
+    menu: document.querySelector('#menu'),
     animation: 'ease',
     duration: 250
   });
